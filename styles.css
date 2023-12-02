@@ -136,29 +136,29 @@ input[type="checkbox"]{
   display: block; /* Remove extra spacing below the image */
 }
 
-
 .landing-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   text-align: center;
-  background-image: url("images/landingcontainer.JPG");
+  background-image: url("images/landing-container.png"); /* Adjust the path accordingly */
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 1);
 }
 
+
 .landing-container h1 {
-  color: #39a4eb; /* Blue text color */
-  font-size: 2.5em;
+  color: #ffffff; /* Blue text color */
+  font-size: 3.5em;
   margin-bottom: 35px;
 }
 
 .landing-container p {
-  color: #28253a;
-  font-size: 1.2em;
+  color: #92d9ff;
+  font-size: 1.6em;
   margin-bottom: 30px;
 }
 
@@ -175,4 +175,9 @@ input[type="checkbox"]{
 
 .cta-button:hover {
   background-color: #297fb8; /* Darker blue on hover */
+}
+
+.landing-container .Landing-logo img {
+  height: 15vh; /* Adjust the height of the logo in the landing container */
+  margin-bottom: 350px; /* Add margin to space the logo from the text */
 }
