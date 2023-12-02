@@ -179,5 +179,5 @@ input[type="checkbox"]{
 
 .landing-container .Landing-logo img {
   height: 15vh; /* Adjust the height of the logo in the landing container */
-  margin-bottom: 350px; /* Add margin to space the logo from the text */
+  margin-bottom: 100px; /* Add margin to space the logo from the text */
 }
