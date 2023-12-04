@@ -273,11 +273,12 @@ input[type="checkbox"]{
 
 }
 
-.dual-container1 h1{
+.dual-container1 h2{
   color:white;
   }
 .dual-container1 p{
 color:white;
+font-size: 1.2em;
 }
 
 .image-container1 img {
@@ -306,11 +307,12 @@ color:white;
 
 }
 
-.dual-container2 h1{
+.dual-container2 h2{
   color:white;
   }
 .dual-container2 p{
 color:white;
+font-size: 1.2em;
 }
 
 .image-container2 img {
