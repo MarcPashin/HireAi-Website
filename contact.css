@@ -286,7 +286,7 @@ input[type="checkbox"]{
     margin-top: 12px;
   }
   .right-side .button input[type="button"]{
-    color: #e6e6e6;
+    color: #ffffff;
     font-size: 18px;
     outline: none;
     border: none;
@@ -341,7 +341,7 @@ input[type="checkbox"]{
   button{
     margin-top: 20px;
 margin-left: 20px;
-    color: #e6e6e6;
+    color: #ffffff;
     font-size: 18px;
     outline: none;
     border: none;
