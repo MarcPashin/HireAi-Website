@@ -4,7 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 } 
+
+body{
+  background-color: black;
+}
 nav{
   display: flex;
   height: auto;
@@ -15,6 +20,7 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
+  z-index:4;
 }
 nav .logo {
     display: flex;
@@ -22,20 +28,24 @@ nav .logo {
     color: #fff;
     font-size: 24px;
     font-weight: 600;
+    z-index:4;
   }
   
   nav .logo img {
     width: 140px; /* Set the width of your logo */
     margin-right: 10px;
+    z-index:4;
   }
   
 nav ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  z-index:4;
 }
 nav ul li{
   margin: 0 5px;
+  z-index:4;
 }
 nav ul li a{
   color: #f2f2f2;
@@ -45,33 +55,40 @@ nav ul li a{
   padding: 8px 15px;
   border-radius: 5px;
   letter-spacing: 1px;
+  z-index:4;
   
 }
 nav ul li a.active,
 nav ul li a:hover{
   color: #111;
   background: #fff;
+  z-index:4;
 }
 nav .menu-btn i{
   color: #fff;
   font-size: 22px;
   cursor: pointer;
   display: none;
+  z-index:4;
 }
 input[type="checkbox"]{
   display: none;
+  z-index:4;
 }
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
+    z-index:4;
   }
 }
 @media (max-width: 920px) {
   nav .menu-btn i{
     display: block;
+    z-index:4;
   }
   #click:checked ~ .menu-btn i:before{
     content: "\f00d";
+    z-index:4;
   }
   nav ul{
     position: fixed;
@@ -83,6 +100,7 @@ input[type="checkbox"]{
     text-align: center;
     display: block;
     transition: all 0.3s ease;
+    z-index:4;
   }
   #click:checked ~ ul{
     left: 0;
@@ -90,6 +108,7 @@ input[type="checkbox"]{
   nav ul li{
     width: 100%;
     margin: 40px 0;
+    z-index:4;
   }
   nav ul li a{
     width: 100%;
@@ -97,6 +116,7 @@ input[type="checkbox"]{
     display: block;
     font-size: 20px;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index:4;
   }
   #click:checked ~ ul li a{
     margin-left: 0px;
@@ -105,6 +125,7 @@ input[type="checkbox"]{
   nav ul li a:hover{
     background: none;
     color: rgb(99, 86, 119);
+    z-index:4;
   }
 }
 .content{
@@ -144,7 +165,7 @@ input[type="checkbox"]{
   justify-content: center;
   height: 100vh;
   text-align: center;
-  background-image: url("images/landing-container.png"); /* Adjust the path accordingly */
+  background-image: url("images/landing-container.jpg"); /* Adjust the path accordingly */
   background-size: cover;
   background-position: center;
 }
@@ -160,6 +181,8 @@ input[type="checkbox"]{
   color: #92d9ff;
   font-size: 1.6em;
   margin-bottom: 30px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Add a shadow to the text */
+
 }
 
 .cta-button {
@@ -180,4 +203,218 @@ input[type="checkbox"]{
 .landing-container .Landing-logo img {
   height: 15vh; /* Adjust the height of the logo in the landing container */
   margin-bottom: 100px; /* Add margin to space the logo from the text */
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-image: src("images/pattern.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#problem-container {
+  background-color: #1a1a1a; /* Black background color for problem container */
+}
+
+#problem-container h2,
+#problem-container p {
+    color: #fff; /* White text color for problem container */
+}
+
+#solution-container h2,
+#solution-container p {
+    color: #fff; /* White text color for problem container */
+}
+
+#solution-container {
+  background-color: #3498db; /* Blue background color for solution container */
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('path-to-your-pattern.png'); /* Replace with the path to your pattern image */
+  opacity: 0.1; /* Adjust the opacity of the pattern */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 1.2em;
+}
+
+
+
+.dual-container1 {
+  display: flex;
+  justify-content: space-between;
+
+  background-color:#111452;
+  border-radius: 20px;  
+  width: 90%;
+  max-width: 2500px;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+.dual-container1 h1{
+  color:white;
+  }
+.dual-container1 p{
+color:white;
+}
+
+.image-container1 img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.text-container1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 60%; /* Adjust the width of the text container */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+.dual-container2 {
+  display: flex;
+  justify-content: space-between;
+  background-color:#1f1248;
+  border-radius: 20px;  
+  width: 90%;
+  max-width: 2500px;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+.dual-container2 h1{
+  color:white;
+  }
+.dual-container2 p{
+color:white;
+}
+
+.image-container2 img {
+  max-width: 100%;
+  border-radius: 20px;
+  float: right;
+}
+
+.text-container2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 60%; /* Adjust the width of the text container */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+@media (max-width:945px){
+  .image-container2 {
+   display: none;
+  }
+  .text-container2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 100%; /* Adjust the width of the text container */
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .image-container1 {
+    display: none;
+   }
+   .text-container1 {
+     margin-top: auto;
+     margin-bottom: auto;
+     max-width: 100%; /* Adjust the width of the text container */
+     box-sizing: border-box;
+     padding: 20px;
+   }
+}
+
+
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+ color: white;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  
+}
+.socials{
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+  color: white;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: white;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+  color: white;
+}
+.socials a:hover i{
+  color: rgb(83, 121, 191);
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  bottom: 100px;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: white;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+  color: white;
 }
