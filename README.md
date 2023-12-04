@@ -1,2 +1,2 @@
 # HireAi-Website
-Website for student led HireAi company. 
+Website for hireai.pro.
