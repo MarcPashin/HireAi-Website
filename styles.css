@@ -224,6 +224,9 @@ input[type="checkbox"]{
   background-color: #1a1a1a; /* Black background color for problem container */
 }
 
+#problem-container h2{ color:white;
+}
+
 #problem-container h2,
 #problem-container p {
     color: #fff; /* White text color for problem container */
