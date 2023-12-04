@@ -238,5 +238,19 @@ input[type="checkbox"]{
 
   
 
-  
+  /* Existing styles remain unchanged */
+
+/* Add the following media query for responsiveness */
+@media (max-width: 550px) {
+  .packages-container {
+    flex-direction: column; /* Stack containers vertically on small screens */
+    align-items: center; /* Center align items */
+  }
+
+  .package {
+    width: 80%; /* Full width for each container */
+    margin-bottom: 20px; /* Add some spacing between containers */
+  }
+}
+
   

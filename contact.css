@@ -285,7 +285,7 @@ input[type="checkbox"]{
     display: inline-block;
     margin-top: 12px;
   }
-  .right-side .button input[type="button"]{
+  .right-side .button input[type="submit"]{
     color: #ffffff;
     font-size: 18px;
     outline: none;
@@ -296,7 +296,7 @@ input[type="checkbox"]{
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .button input[type="button"]:hover{
+  .button input[type="submit"]:hover{
     background: #4192c1;
   }
   @media (max-width: 950px) {
