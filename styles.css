@@ -264,7 +264,7 @@ input[type="checkbox"]{
   display: flex;
   justify-content: space-between;
 
-  background-color:#111452;
+  background-color:#080a2e;
   border-radius: 20px;  
   width: 90%;
   max-width: 2500px;
@@ -409,7 +409,7 @@ color:white;
 .footer-bottom p{
   font-size: 14px;
   word-spacing: 2px;
-  text-transform: capitalize;
+
   color: white;
 }
 .footer-bottom span{
