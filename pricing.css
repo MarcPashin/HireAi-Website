@@ -228,14 +228,14 @@ input[type="checkbox"]{
     margin-bottom: 20px; /* Add some spacing below the title */
   }
 
-  .package strong {
-    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); /* Rainbow-colored gradient */
+  /*.package strong {
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); 
     -webkit-background-clip: text;
-    color: transparent; /* Hide the original text color, only show the gradient */
+    color: transparent; 
     font-weight: bold;
   }
   
-
+/*
   
 
   /* Existing styles remain unchanged */
