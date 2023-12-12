@@ -260,7 +260,7 @@ h3 {
 }
 
 .banner {
-  background: #080a2e;
+  background: #1f6488;
 }
 
 .banner__content {
@@ -278,7 +278,6 @@ h3 {
 }
 
 .banner__close {
-  float:right;
   background: none;
   border: none;
   cursor: pointer;
