@@ -71,7 +71,7 @@ nav .menu-btn i{
   display: none;
   z-index:4;
 }
-input[type="checkbox1"]{
+nav input[type="checkbox"]{
   display: none;
   z-index:4;
 }
