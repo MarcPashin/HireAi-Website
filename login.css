@@ -71,7 +71,7 @@ nav .menu-btn i{
   display: none;
   z-index:4;
 }
-nav input[type="checkbox"]{
+input[type="checkbox"]{
   display: none;
   z-index:4;
 }
@@ -505,7 +505,7 @@ font-size: 1.2em;
   }
   .wrapper .remember-forgot{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     font-size: 14.5px;
     margin: -15px 0 15px;
   }
