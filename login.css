@@ -8,7 +8,7 @@
 } 
 
 body{
-  background-image: url('images/milky-way.jpg');
+  background:rgb(0, 0, 0)
 }
 nav{
   display: flex;
@@ -71,7 +71,7 @@ nav .menu-btn i{
   display: none;
   z-index:4;
 }
-input[type="checkbox"]{
+input[type="checkbox1"]{
   display: none;
   z-index:4;
 }
@@ -427,7 +427,7 @@ font-size: 1.2em;
 
 
 .banner {
-  background: #1f6488;
+  background: #ff0000;
 }
 
 .banner__content {
@@ -458,7 +458,7 @@ font-size: 1.2em;
 
 
 .wrapper{
-    width: 100%;
+    width: 80%;
     max-width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -466,7 +466,8 @@ font-size: 1.2em;
     color: #fff;
     border-radius: 12px;
     padding: 30px 40px;
-    background: rgba(231, 231, 231, 0.034);
+    /*background: linear-gradient(to bottom right, #045d94, #022b39);*/
+    background-color: #1b1b1b;
   }
   .wrapper h1{
     font-size: 36px;
