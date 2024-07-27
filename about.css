@@ -266,3 +266,35 @@ h1 {
 p{
   color: white;
 }
+
+
+.dual-container1 {
+  display: flex;
+  justify-content: space-between;
+
+  background-color:#080a2e;
+  border-radius: 20px;  
+  width: 90%;
+  max-width: 2500px;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+.dual-container1 h2{
+  color:white;
+  }
+.dual-container1 p{
+color:white;
+font-size: 1.2em;
+}
+
+
+
+.text-container1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 100%; /* Adjust the width of the text container */
+  box-sizing: border-box;
+  padding: 20px;
+}
